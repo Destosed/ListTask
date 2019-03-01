@@ -1,0 +1,6 @@
+/Users/dest/Projects/ListTask/ListTask/bin/Debug/ListTask.exe
+/Users/dest/Projects/ListTask/ListTask/bin/Debug/ListTask.pdb
+/Users/dest/Projects/ListTask/ListTask/obj/x86/Debug/ListTask.csprojAssemblyReference.cache
+/Users/dest/Projects/ListTask/ListTask/obj/x86/Debug/ListTask.csproj.CoreCompileInputs.cache
+/Users/dest/Projects/ListTask/ListTask/obj/x86/Debug/ListTask.exe
+/Users/dest/Projects/ListTask/ListTask/obj/x86/Debug/ListTask.pdb
