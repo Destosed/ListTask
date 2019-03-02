@@ -11,7 +11,8 @@ namespace ListTasks
 
         public WordSet(string[] arr)
         {
-            foreach (var line in arr)
+            var sortedArr = BubbleSort(arr);
+            foreach (var line in sortedArr)
                 AddLast(line);
         }
 
@@ -195,6 +196,25 @@ namespace ListTasks
                 el = el.Next;
             }
             return false;
+        }
+
+        public string[] BubbleSort(string[] arr)
+        {
+            var temp = string.Empty;
+
+            for (int write = 0; write < arr.Length; write++)
+            {
+                for (int sort = 0; sort < arr.Length - 1; sort++)
+                {
+                    if (arr[sort].CompareTo(arr[sort + 1]) > 0)
+                    {
+                        temp = arr[sort + 1];
+                        arr[sort + 1] = arr[sort];
+                        arr[sort] = temp;
+                    }
+                }
+            }
+            return arr;
         }
 
     }
