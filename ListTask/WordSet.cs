@@ -60,6 +60,9 @@ namespace ListTasks
 
         public void Insert(string word)
         {
+            if (this.Length == 0)
+                AddLast(word);
+
             if (IsWordSetContainsWord(word))
                 return;
 
